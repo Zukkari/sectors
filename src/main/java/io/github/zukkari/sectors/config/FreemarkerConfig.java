@@ -10,7 +10,7 @@ public class FreemarkerConfig {
   @Bean
   public FreeMarkerViewResolver viewResolver() {
     final var resolver = new FreeMarkerViewResolver();
-    resolver.setCache(true);
+    resolver.setCache(false);
     resolver.setSuffix(".ftl");
     return resolver;
   }
