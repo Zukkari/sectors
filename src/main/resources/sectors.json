@@ -1,207 +1,207 @@
 [
   {
-    "id": 1,
+    "value": 1,
     "name": "Manufacturing",
     "subSectors": [
       {
-        "id": 19,
+        "value": 19,
         "name": "Construction materials",
         "subSectors": []
       },
       {
-        "id": 18,
+        "value": 18,
         "name": "Electronics and Optics",
         "subSectors": []
       },
       {
-        "id": 6,
+        "value": 6,
         "name": "Food and Beverage",
         "subSectors": [
           {
-            "id": 342,
+            "value": 342,
             "name": "Bakery &amp; confectionery products",
             "subSectors": []
           },
           {
-            "id": 43,
+            "value": 43,
             "name": "Beverages",
             "subSectors": []
           },
           {
-            "id": 42,
+            "value": 42,
             "name": "Fish &amp; fish products",
             "subSectors": []
           },
           {
-            "id": 40,
+            "value": 40,
             "name": "Meat &amp; meat products",
             "subSectors": []
           },
           {
-            "id": 39,
+            "value": 39,
             "name": "Milk &amp; dairy products",
             "subSectors": []
           },
           {
-            "id": 437,
+            "value": 437,
             "name": "Other",
             "subSectors": []
           },
           {
-            "id": 378,
+            "value": 378,
             "name": "Sweets &amp; snack food",
             "subSectors": []
           }
         ]
       },
       {
-        "id": 13,
+        "value": 13,
         "name": "Furniture",
         "subSectors": [
           {
-            "id": 389,
+            "value": 389,
             "name": "Bathroom/sauna",
             "subSectors": []
           },
           {
-            "id": 385,
+            "value": 385,
             "name": "Bedroom",
             "subSectors": []
           },
           {
-            "id": 390,
+            "value": 390,
             "name": "Childrenâ€™s room",
             "subSectors": []
           },
           {
-            "id": 98,
+            "value": 98,
             "name": "Kitchen",
             "subSectors": []
           },
           {
-            "id": 101,
+            "value": 101,
             "name": "Living room",
             "subSectors": []
           },
           {
-            "id": 392,
+            "value": 392,
             "name": "Office",
             "subSectors": []
           },
           {
-            "id": 394,
+            "value": 394,
             "name": "Other (Furniture)",
             "subSectors": []
           },
           {
-            "id": 341,
+            "value": 341,
             "name": "Outdoor",
             "subSectors": []
           },
           {
-            "id": 99,
+            "value": 99,
             "name": "Project furniture",
             "subSectors": []
           }
         ]
       },
       {
-        "id": 12,
+        "value": 12,
         "name": "Machinery",
         "subSectors": [
           {
-            "id": 94,
+            "value": 94,
             "name": "Machinery components",
             "subSectors": []
           },
           {
-            "id": 91,
+            "value": 91,
             "name": "Machinery equipment/tools",
             "subSectors": []
           },
           {
-            "id": 224,
+            "value": 224,
             "name": "Manufacture of machinery",
             "subSectors": []
           },
           {
-            "id": 97,
+            "value": 97,
             "name": "Maritime",
             "subSectors": [
               {
-                "id": 271,
+                "value": 271,
                 "name": "Aluminium and steel workboats",
                 "subSectors": []
               },
               {
-                "id": 269,
+                "value": 269,
                 "name": "Boat/Yacht building",
                 "subSectors": []
               },
               {
-                "id": 230,
+                "value": 230,
                 "name": "Ship repair and conversion",
                 "subSectors": []
               }
             ]
           },
           {
-            "id": 93,
+            "value": 93,
             "name": "Metal structures",
             "subSectors": []
           },
           {
-            "id": 508,
+            "value": 508,
             "name": "Other",
             "subSectors": []
           },
           {
-            "id": 227,
+            "value": 227,
             "name": "Repair and maintenance service",
             "subSectors": []
           }
         ]
       },
       {
-        "id": 11,
+        "value": 11,
         "name": "Metalworking",
         "subSectors": [
           {
-            "id": 67,
+            "value": 67,
             "name": "Construction of metal structures",
             "subSectors": []
           },
           {
-            "id": 263,
+            "value": 263,
             "name": "Houses and buildings",
             "subSectors": []
           },
           {
-            "id": 267,
+            "value": 267,
             "name": "Metal products",
             "subSectors": []
           },
           {
-            "id": 542,
+            "value": 542,
             "name": "Metal works",
             "subSectors": [
               {
-                "id": 75,
+                "value": 75,
                 "name": "CNC-machining",
                 "subSectors": []
               },
               {
-                "id": 62,
+                "value": 62,
                 "name": "Forgings, Fasteners",
                 "subSectors": []
               },
               {
-                "id": 69,
+                "value": 69,
                 "name": "Gas, Plasma, Laser cutting",
                 "subSectors": []
               },
               {
-                "id": 66,
+                "value": 66,
                 "name": "MIG, TIG, Aluminum welding",
                 "subSectors": []
               }
@@ -210,100 +210,100 @@
         ]
       },
       {
-        "id": 9,
+        "value": 9,
         "name": "Plastic and Rubber",
         "subSectors": [
           {
-            "id": 54,
+            "value": 54,
             "name": "Packaging",
             "subSectors": []
           },
           {
-            "id": 556,
+            "value": 556,
             "name": "Plastic goods",
             "subSectors": []
           },
           {
-            "id": 559,
+            "value": 559,
             "name": "Plastic processing technology",
             "subSectors": [
               {
-                "id": 55,
+                "value": 55,
                 "name": "Blowing",
                 "subSectors": []
               },
               {
-                "id": 57,
+                "value": 57,
                 "name": "Moulding",
                 "subSectors": []
               },
               {
-                "id": 53,
+                "value": 53,
                 "name": "Plastics welding and processing",
                 "subSectors": []
               }
             ]
           },
           {
-            "id": 560,
+            "value": 560,
             "name": "Plastic profiles",
             "subSectors": []
           }
         ]
       },
       {
-        "id": 5,
+        "value": 5,
         "name": "Printing",
         "subSectors": [
           {
-            "id": 148,
+            "value": 148,
             "name": "Advertising",
             "subSectors": []
           },
           {
-            "id": 150,
+            "value": 150,
             "name": "Book/Periodicals printing",
             "subSectors": []
           },
           {
-            "id": 145,
+            "value": 145,
             "name": "Labelling and packaging printing",
             "subSectors": []
           }
         ]
       },
       {
-        "id": 7,
+        "value": 7,
         "name": "Textile and Clothing",
         "subSectors": [
           {
-            "id": 44,
+            "value": 44,
             "name": "Clothing",
             "subSectors": []
           },
           {
-            "id": 45,
+            "value": 45,
             "name": "Textile",
             "subSectors": []
           }
         ]
       },
       {
-        "id": 8,
+        "value": 8,
         "name": "Wood",
         "subSectors": [
           {
-            "id": 337,
+            "value": 337,
             "name": "Other (Wood)",
             "subSectors": []
           },
           {
-            "id": 51,
+            "value": 51,
             "name": "Wooden building materials",
             "subSectors": []
           },
           {
-            "id": 47,
+            "value": 47,
             "name": "Wooden houses",
             "subSectors": []
           }
@@ -312,97 +312,97 @@
     ]
   },
   {
-    "id": 3,
+    "value": 3,
     "name": "Other",
     "subSectors": [
       {
-        "id": 37,
+        "value": 37,
         "name": "Creative industries",
         "subSectors": []
       },
       {
-        "id": 29,
+        "value": 29,
         "name": "Energy technology",
         "subSectors": []
       },
       {
-        "id": 33,
+        "value": 33,
         "name": "Environment",
         "subSectors": []
       }
     ]
   },
   {
-    "id": 2,
+    "value": 2,
     "name": "Service",
     "subSectors": [
       {
-        "id": 25,
+        "value": 25,
         "name": "Business services",
         "subSectors": []
       },
       {
-        "id": 35,
+        "value": 35,
         "name": "Engineering",
         "subSectors": []
       },
       {
-        "id": 28,
+        "value": 28,
         "name": "Information Technology and Telecommunications",
         "subSectors": [
           {
-            "id": 581,
+            "value": 581,
             "name": "Data processing, Web portals, E-marketing",
             "subSectors": []
           },
           {
-            "id": 576,
+            "value": 576,
             "name": "Programming, Consultancy",
             "subSectors": []
           },
           {
-            "id": 121,
+            "value": 121,
             "name": "Software, Hardware",
             "subSectors": []
           },
           {
-            "id": 122,
+            "value": 122,
             "name": "Telecommunications",
             "subSectors": []
           }
         ]
       },
       {
-        "id": 22,
+        "value": 22,
         "name": "Tourism",
         "subSectors": []
       },
       {
-        "id": 141,
+        "value": 141,
         "name": "Translation services",
         "subSectors": []
       },
       {
-        "id": 21,
+        "value": 21,
         "name": "Transport and Logistics",
         "subSectors": [
           {
-            "id": 111,
+            "value": 111,
             "name": "Air",
             "subSectors": []
           },
           {
-            "id": 114,
+            "value": 114,
             "name": "Rail",
             "subSectors": []
           },
           {
-            "id": 112,
+            "value": 112,
             "name": "Road",
             "subSectors": []
           },
           {
-            "id": 113,
+            "value": 113,
             "name": "Water",
             "subSectors": []
           }
