@@ -4,7 +4,7 @@ spring:
     suffix: '.ftl'
   data:
     mongodb:
-      host: 'localhost'
+      host: 'mongodb'
       port: 27017
       database: 'admin'
       username: 'sectors'
@@ -12,5 +12,5 @@ spring:
 
 sectors:
   insertion:
-    run: false
+    run: true
     files: 'sectors.json'

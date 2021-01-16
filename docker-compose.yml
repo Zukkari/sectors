@@ -1,10 +1,32 @@
-mongo-container:
-  image: mongo:3
-  environment:
-    - MONGO_INITDB_ROOT_USERNAME=sectors
-    - MONGO_INITDB_ROOT_PASSWORD=sectors
-  ports:
-    - "27017:27017"
-  volumes:
-    - "$PWD/mongo-entrypoint/:/docker-entrypoint-initdb.d/"
-  command: mongod
+version: "3.9"
+
+services:
+  mongo-container:
+    container_name: mongodb
+    image: mongo:3
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=sectors
+      - MONGO_INITDB_ROOT_PASSWORD=sectors
+    ports:
+      - "27017:27017"
+    volumes:
+      - "$PWD/mongo-entrypoint/:/docker-entrypoint-initdb.d/"
+    command: mongod
+    networks:
+      - sectors-network
+
+  sectors:
+    build:
+      dockerfile: Dockerfile
+      context: .
+    ports:
+      - "8080:8080"
+    networks:
+      - sectors-network
+      - internet
+
+networks:
+  sectors-network:
+    internal: true
+  internet:
+
