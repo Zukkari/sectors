@@ -2,3 +2,24 @@
     min-height: 250px;
     height: 25vh;
 }
+
+.error-field {
+    background: rgba(255, 0, 0, 0.32);
+    max-width: 400px;
+    border-radius: 40px;
+    text-align: center;
+}
+
+body {
+    margin: auto;
+    max-width: 30vw;
+    background: cornflowerblue;
+}
+
+.form {
+    margin-top: 10vh;
+    background: white;
+    padding: 20px;
+    align-items: center;
+    border-radius: 30px;
+}

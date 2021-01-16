@@ -12,5 +12,5 @@ spring:
 
 sectors:
   insertion:
-    run: true
+    run: false
     files: 'sectors.json'
