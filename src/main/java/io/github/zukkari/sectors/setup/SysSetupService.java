@@ -20,13 +20,18 @@ public class SysSetupService implements ApplicationRunner {
 
   private final ObjectMapper objectMapper;
   private final SectorRepository sectorRepository;
+  private final StreamProvider streamProvider;
 
   @Autowired
   public SysSetupService(
-      Migration migration, ObjectMapper objectMapper, SectorRepository sectorRepository) {
+      Migration migration,
+      ObjectMapper objectMapper,
+      SectorRepository sectorRepository,
+      StreamProvider streamProvider) {
     this.migration = migration;
     this.objectMapper = objectMapper;
     this.sectorRepository = sectorRepository;
+    this.streamProvider = streamProvider;
   }
 
   @Override
@@ -39,7 +44,7 @@ public class SysSetupService implements ApplicationRunner {
     }
 
     for (String file : migration.getFiles()) {
-      try (var resource = getClass().getClassLoader().getResourceAsStream(file)) {
+      try (var resource = streamProvider.getStream(file)) {
         final var sectors = objectMapper.readValue(resource, Sector[].class);
         log.info("Found '{}' records from file: {}", sectors.length, file);
 
