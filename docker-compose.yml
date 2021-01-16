@@ -1,8 +1,8 @@
 mongo-container:
   image: mongo:3
   environment:
-    - MONGO_INITDB_ROOT_USERNAME=admin
-    - MONGO_INITDB_ROOT_PASSWORD=admin
+    - MONGO_INITDB_ROOT_USERNAME=sectors
+    - MONGO_INITDB_ROOT_PASSWORD=sectors
   ports:
     - "27017:27017"
   volumes:

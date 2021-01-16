@@ -7,8 +7,8 @@ spring:
       host: 'localhost'
       port: 27017
       database: 'admin'
-      username: 'admin'
-      password: 'admin'
+      username: 'sectors'
+      password: 'sectors'
 
 sectors:
   insertion:

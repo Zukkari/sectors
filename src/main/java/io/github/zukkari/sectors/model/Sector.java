@@ -2,10 +2,10 @@ package io.github.zukkari.sectors.model;
 
 import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonProperty;
-import com.fasterxml.jackson.annotation.JsonValue;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
+import java.util.Collections;
 import java.util.List;
 import java.util.Objects;
 
@@ -16,6 +16,19 @@ public class Sector {
   private long value;
   private String name;
   private List<Sector> subSectors;
+
+  @JsonCreator
+  public static Sector fromJson(
+      @JsonProperty("value") long value,
+      @JsonProperty("name") String name,
+      @JsonProperty("subSectors") List<Sector> subSectors) {
+    final var sector = new Sector();
+    sector.setValue(value);
+    sector.setName(name);
+    sector.setSubSectors(subSectors);
+
+    return sector;
+  }
 
   public String getId() {
     return id;
@@ -34,7 +47,7 @@ public class Sector {
   }
 
   public List<Sector> getSubSectors() {
-    return subSectors;
+    return subSectors != null ? subSectors : Collections.emptyList();
   }
 
   public void setSubSectors(List<Sector> subSectors) {
@@ -47,19 +60,6 @@ public class Sector {
 
   public void setName(String name) {
     this.name = name;
-  }
-
-  @JsonCreator
-  public static Sector factory(
-          @JsonProperty("value") long value,
-          @JsonProperty("name") String name,
-          @JsonProperty("subSectors") List<Sector> subSectors) {
-    final var sector = new Sector();
-    sector.setValue(value);
-    sector.setName(name);
-    sector.setSubSectors(subSectors);
-
-    return sector;
   }
 
   @Override
