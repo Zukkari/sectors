@@ -62,6 +62,6 @@ public class SectorFormService {
   public String update(String id, SectorFormDto dto) {
     final var converted = sectorFormDtoConverter.convert(dto);
     converted.setId(id);
-    return sectorFormRepository.insert(converted).getId();
+    return sectorFormRepository.save(converted).getId();
   }
 }
