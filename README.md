@@ -27,5 +27,5 @@ mvn package
 docker-compose up -d
 ```
 
-This will create necessary container and the applicaiton will be running on `http://localhost:8080`
+This will create the necessary containers, and the application will be running on `http://localhost:8080`
 
